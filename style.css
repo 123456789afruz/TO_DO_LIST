@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+body {
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20240718/pngtree-celestial-wonders-a-journey-through-the-cosmos-computer-wallpaper-image_16017922.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+}
+/* .container {     
+    max-width: 1000px ;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+} */
+.wrapper {
+    
+    max-width: 400px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.478);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    backdrop-filter: blur(15px);
+    background-color: rgba(0, 0, 255, 0.253);
+
+
+    input, button {
+        padding: 8px;
+    }
+    p {
+        padding: 8px;
+        transition: all 0.5s;
+        cursor: pointer;
+        background-color: #fff;
+        &:hover {
+            background-color: lightgray;
+        }
+    }
+    .box {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        border: 1px solid gray;
+
+        margin-top: 30px;
+        padding: 10px;
+
+        height: 250px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        
+        &::-webkit-scrollbar {
+            width: 10px;
+
+        }
+        &::-webkit-scrollbar-track {
+            background-color: rgba(92, 10, 92, 0.878);
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: yellow;
+        }
+        
+
+    }
+    h2 {
+        text-align: center;
+    }
+    #btn {
+        margin-bottom: 50px;
+    }
+} 
